@@ -12,12 +12,12 @@ export default function Navbar() {
         className="w-full h-[25rem] object-cover object-center"
       ></video>
       <div className="flex-1 flex justify-center items-center pt-4">
-          <div className="flex items-center">
+        <div className="flex items-center">
           <img src={icon} alt="Icone" className="w-8 h-8" />
-      <Link to="/" className="btn btn-ghost text-4xl max-[776px]:text-4xl">
-        Code Nature
-      </Link>
-      </div>
+          <Link to="/" className="btn btn-ghost text-4xl max-[776px]:text-4xl">
+            Code Nature
+          </Link>
+        </div>
       </div>
       <div className="navbar-center pt-6 lg:flex lg:justify-evenly pb-10 ">
         <ul className="menu menu-horizontal px-1 gap-48 max-[776px]:gap-6">
